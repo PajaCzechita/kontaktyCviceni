@@ -46,6 +46,20 @@ body {
 .call,
 .message {
   width: 30px;
+  transition: 0.5s;
 }
 
 /* Tady napište své styly */
+
+section:nth-child(2n) {
+background-color: white;
+}
+
+section > img {
+  border: solid 3px lightblue;
+}
+
+div > .call:hover, .message:hover {
+transform: scale(1.3);
+cursor: pointer;
+}
